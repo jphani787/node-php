@@ -1,0 +1,12 @@
+{
+    "name": "node-ejs",
+    "main": "server.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "ejs": "^3.1.5",
+        "exec-php": "0.0.5",
+        "express": "^4.17.1"
+    }
+}
