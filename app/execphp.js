@@ -7,15 +7,17 @@ class ExecPHP {
 	*/
 	constructor() {
 		this.phpPath = 'F:/xampp/php/php.exe';
-		this.phpFolder = '';
+		this.phpFolder = '../';
 	}	
 	/**
 	*
 	*/
 	parseFile(fileName,callback) {
+
+
 		var realFileName = this.phpFolder + fileName;
 		
-		console.log('parsing file: ' + realFileName);
+		console.log('parsing file 1: ' + realFileName);
 
 		var exec = require('child_process').exec;
 		var cmd = this.phpPath + ' ' + realFileName;

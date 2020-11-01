@@ -13,6 +13,9 @@
         }
     </style>
 
+    <link rel="stylesheet" type="text/css" href="http://localhost/stylesheets/main.css" />
+    <script type="text/javascript" src="http://localhost/javascripts/main.js"></script>
+
 </head>
 
 <body class="container">
@@ -40,6 +43,7 @@
     <main>
         <div class="jumbotron">
             <?php echo '<h1>Welcome PHP Contact Page!</h1>';?>
+            <img src="http://localhost/images/02.jpg" />
         </div>
     </main>
 

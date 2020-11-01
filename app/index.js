@@ -4,7 +4,7 @@ var app = express();
 
 
 var execPHP = require('./execphp.js')();
-execPHP.phpFolder = 'F:/xampp/htdocs/project/';
+//execPHP.phpFolder = '../../';
 
 
 app.use('*.php',function(request,response,next) {
@@ -29,5 +29,5 @@ app.get('/about', function(req, res) {
     res.render('about');
 });
  
-app.listen(8080);
-console.log('80 is the magic port');
+app.listen(3000);
+console.log('3000 is the node port');
